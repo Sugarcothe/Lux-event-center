@@ -16,8 +16,8 @@ body {
     width: auto;
     height: auto;
 }
-.fgt-password{
-    font-family: Poppins;
+.fgt-password {
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -124,8 +124,6 @@ h4 {
 }
 
 /*SIGN IN*/
-
-
 
 .sign-in p {
     justify-content: center;

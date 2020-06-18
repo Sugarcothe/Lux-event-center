@@ -20,24 +20,24 @@
                             <h4 class="text-center">Sign In</h4>
                             <h4 class="text-center pt-1">Welcome Back</h4>
                         </div>
-                        <div class="form-group px-5 pt-4">
-                            <input type="text" class="form-control p-4" placeholder="Email">
+                        <div class="form-group pt-4">
+                            <input type="text" class="form-control py-4" placeholder="Email">
                         </div>
-                        <div class="form-group input-prepend px-5">
-                            <input type="password" class="form-control p-4" placeholder="Password">
-                            <h6 class="fgt-password">Forgot password?</h6>
+                        <div class="form-group input-prepend">
+                            <input type="password" class="form-control py-4" placeholder="Password">
+                            <h6 class="fgt-password d-flex justify-content-end">Forgot your password?</h6>
                         </div> 
-                        <div class="pt-3 px-5 form-group text-center">
+                        <div class="pt-3 form-group text-center">
                             <button class="btn-signin btn btn-center btn-lg" type="button" value="Call">Sign in</i></button>
                         </div>
-                        <div class="sign-in row text-center">
+                        <div class="sign-in text-center">
                             <p class="text-center">Don’t have an account ? <span><a href="#">Sign Up</a></span></p>
                         </div>
                     </div>
                 </div>
                 <div class="img-img">
                     <div class="col-md-6 img-fluid">
-                    <img src="/Lux Event/img/Rectangle 101.png" alt="">
+                    <img src="/img/Rectangle 101.png" alt="">
                 </div>
                 </div>    
             </div>
@@ -45,6 +45,8 @@
     </section>
 
     <style>
+
+        /*PHONE VIEW*/
     @media screen and (max-width: 500px) {
     .sign-in p {
         margin-top: 0;
@@ -54,24 +56,24 @@
         font-size: 18px;
         padding-left: 3rem;
         padding-bottom: 0;
-    }
+        }
 
     .text-center {
         padding-top: 0;
         text-align: center;
-        font-size: 31px;
+        font-size: 15px;
         font-weight: bold;
 
-    }
+        }
     .fgt-password{
         font-family:'Poppins';
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 12px;
         line-height: 18px;
         color: #144D8A;
         padding-left: 9.50rem;
-    }
+        }
     .text-center {
         padding-top: 0;
         margin-top: 0;
@@ -79,13 +81,35 @@
         font-size: 25px;
 
 
-    }
+        }
     .card-body {
         padding: 1rem;
         margin-top: 2rem;
-    }
+        }
     .img-img {
         display: none;
+        }
+  
+    
+    }
+
+    /*TABLET VIEW*/
+    @media screen and (min-width: 700px) {
+        #form {
+          display: center;
+        }
+        .fgt-password{
+        font-family:'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #144D8A;
+        padding-left: 14.50rem;
+        }
+        
+  
+  
     }
 
     </style>      
